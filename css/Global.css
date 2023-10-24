@@ -1,0 +1,2238 @@
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+}
+iframe {
+  border: 1px solid black;
+}
+.gap {
+  gap: 2rem;
+}
+.rounded {
+  border-radius: 1rem;
+}
+nav {
+  display: flex;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 1.5rem 0rem;
+  font-weight: 600;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+nav a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+nav :hover {
+  color: #b88e2f;
+}
+nav h3 {
+  margin: 0;
+  text-align: center;
+  color: #b88e2f;
+}
+footer {
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  padding: 5rem 0rem;
+  gap: 3rem;
+}
+.footer div {
+  display: flex;
+}
+.footer a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.footer h1 {
+  margin: 0;
+  text-align: start;
+  flex-grow: 1;
+}
+
+.herotext {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.button {
+  border-width: 0rem;
+  padding: 2rem 4rem;
+  background-color: #b88e2f;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  width: 20rem;
+  border-radius: 2rem;
+  justify-content: center;
+}
+.button a {
+  color: white;
+}
+.campingherobg {
+  background-color: rgba(8, 8, 8, 0.5);
+  background-image: url(../Images/campinghero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-blend-mode: overlay;
+}
+.furnitureherobg {
+  background-color: rgba(8, 8, 8, 0.5);
+  background-image: url(../Images/furniturebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-blend-mode: overlay;
+}
+.button:hover {
+  border-width: 0.5rem;
+  border-style: solid;
+  border-radius: 2rem;
+  background-color: transparent;
+  border-color: #b88e2f;
+  color: #b88e2f;
+}
+.button:hover a {
+  color: #b88e2f;
+}
+.maxwidth {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+.maintextcolor {
+  color: #b88e2f;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 8rem 0rem 5rem 0rem;
+}
+.heroimg {
+  width: 45%;
+  border-radius: 100%;
+}
+.slogan {
+  font-size: 5rem;
+  text-align: end;
+  margin: 0 0 2rem 0;
+}
+.hero p {
+  text-align: end;
+  font-size: 1.5rem;
+}
+.Range {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 3rem 0rem;
+}
+.Range h1 {
+  font-size: 3rem;
+}
+.rangebdy {
+  display: flex;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.itemrange img {
+  width: 20rem;
+  border-radius: 1.4rem;
+  display: flex;
+  justify-items: center;
+  margin: 0 auto;
+}
+.itemrange {
+  display: flex;
+  flex-direction: column;
+}
+.itemrange h2 {
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.links {
+  flex-grow: 1;
+  width: fit-content;
+  display: flex;
+  gap: 2.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  flex-direction: column;
+  align-items: start;
+}
+.links a {
+  text-align: start;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+input {
+  border-width: 0;
+  padding: 1rem;
+  border-color: black;
+  background-color: transparent;
+  border-bottom-width: 0.2rem;
+}
+form {
+  display: flex;
+  gap: 1rem;
+}
+.ophalf {
+  opacity: 50%;
+}
+.fontbold {
+  font-weight: bold;
+}
+.form h1 {
+  margin: 0;
+  flex-grow: 0;
+}
+.footermain {
+  padding: 0rem 0rem 5rem 0rem;
+}
+.footermain h1 {
+  color: #b88e2f;
+}
+.showcase {
+  padding: 5rem 0rem;
+}
+.showcase h1 {
+  color: #b88e2f;
+  font-size: 3rem;
+}
+.showcase p {
+  font-size: 2rem;
+}
+.showcaseparent {
+  display: flex;
+  align-items: center;
+}
+.showcaseleft {
+  display: flex;
+  width: 40%;
+  flex-grow: 1;
+}
+
+.location {
+  background-color: white;
+  padding: 3rem 0rem;
+}
+.locationcap {
+  text-align: center;
+  font-size: 2rem;
+  color: #b88e2f;
+}
+.locationmap {
+  width: fit-content;
+  display: flex;
+  justify-items: center;
+  margin: 0 auto;
+}
+.locationmap iframe {
+  width: 70rem;
+  height: 40rem;
+  border-radius: 2rem;
+}
+.container {
+  padding: 5rem;
+  position: relative;
+  padding: 2rem;
+  max-width: 48rem;
+}
+.slide-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.slider {
+  border-radius: 1rem;
+  display: flex;
+  height: 40rem;
+
+  aspect-ratio: 5.8/9;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+.slider-nav a {
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity ease 250ms;
+}
+.slider-nav a div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  background-color: black;
+}
+.slider-nav a:hover {
+  opacity: 100%;
+}
+.modal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  display: none;
+  flex-direction: column;
+  top: 15rem;
+  align-items: center;
+  z-index: 5;
+}
+.modalmain {
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  width: 30rem;
+  border-radius: 2rem;
+}
+.modalmain a {
+  padding-top: 2rem;
+}
+.modalmain form {
+  width: 20rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.modalmain form div {
+  display: flex;
+  flex-direction: column;
+}
+#modal:target {
+  display: flex;
+}
+.relative {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.Pkghero {
+  color: #b88e2f;
+  background-image: url(../Images/BGpkgimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pkgheader {
+  padding: 5rem 0 2.5rem 0;
+  color: #b88e2f;
+  text-align: center;
+}
+.center h1 {
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2.5rem 0 5rem 0;
+}
+.Pkgbody {
+  padding: 6rem 0rem;
+}
+.pkgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pkgcardcaption {
+  display: flex;
+  align-items: center;
+}
+.pkgcardcaption h2 {
+  text-align: center;
+  color: #b88e2f;
+}
+.pkgcardcaption .pkgcap {
+  font-size: 2.5rem;
+}
+.pkgcardcaption p {
+  text-align: center;
+  color: black;
+}
+.pkgbuy {
+  border-width: 0rem;
+
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #b88e2f;
+}
+.Pkgcard {
+  background-image: url(../Images/BGpkgimage.png);
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.itemcontainer {
+  margin: 2rem 0;
+  flex-direction: column;
+}
+.fontsize {
+  transform: rotate(45deg);
+  font-size: 5rem;
+}
+.bold {
+  font-weight: bold;
+}
+.grow {
+  flex-grow: 1;
+}
+.itemcard {
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+}
+.itemcard img {
+  width: 15rem;
+}
+.voucher {
+  background-color: white;
+  padding: 4rem 0;
+}
+.butsty {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 360px) {
+  .maxwidth {
+    max-width: 20rem;
+  }
+  nav {
+    gap: 0.8rem;
+    padding: 0.8rem 0rem;
+  }
+  nav a {
+    font-size: 0.33rem;
+    font-weight: 500;
+  }
+  nav h3 {
+    font-size: 0.45rem;
+  }
+  .slogan {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero {
+    padding: 5rem 0rem 5rem 0rem;
+  }
+  .hero p {
+    text-align: end;
+    margin: 0.5rem 0;
+    font-size: 0.4rem;
+  }
+  .herotext {
+    width: 60%;
+  }
+  .locationmap iframe {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+  }
+  .Range h1 {
+    font-size: 1.3rem;
+  }
+  .rangebdy {
+    display: flex;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  .itemrange img {
+    width: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .itemrange h2 {
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 0.6rem;
+  }
+  .links {
+    flex-grow: 1;
+    width: fit-content;
+    display: flex;
+    gap: 0.8rem;
+    font-weight: 500;
+    font-size: 0.5rem;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footermain h1 {
+    font-size: 0.5rem;
+  }
+  .button {
+    border-width: 0rem;
+    padding: 0.7rem 1.7rem;
+    background-color: #b88e2f;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    width: 9rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+  }
+  form {
+    flex-direction: column;
+  }
+  #i1 {
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+  }
+  #i2 {
+    width: fit-content;
+    padding: 0 0.2rem;
+    font-size: 0.5rem;
+  }
+
+  .showcase {
+    padding: 2rem 0rem;
+  }
+  .showcase h1 {
+    font-size: 1.2rem;
+  }
+  .showcase p {
+    font-size: 0.6rem;
+  }
+  .showcaseparent {
+    display: flex;
+    align-items: center;
+  }
+  .showcaseleft {
+    display: flex;
+    width: max-content;
+    flex-grow: 1;
+  }
+  .slide-wrapper {
+    max-width: 40rem;
+  }
+  .slider {
+    height: 14rem;
+  }
+  .slider-nav {
+    bottom: 0.01rem;
+    gap: 0.5rem;
+  }
+  .slider-nav a div {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+    background-color: black;
+  }
+  .container {
+    position: relative;
+    padding: 1rem;
+    max-width: 48rem;
+  }
+
+  .locationcap {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .cpyright {
+    font-size: 0.5rem;
+  }
+  .campingbody {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .campingherobg {
+    width: 100%;
+    height: 200px;
+  }
+  .campingherobg h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 1.2rem;
+    margin: auto auto;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+  }
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: fit-content;
+    justify-content: center;
+  }
+  .card {
+    width: 30%;
+    background-color: #b3b3b3;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 4px rgb(216, 216, 216);
+  }
+  .card img {
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .cardcaption {
+    padding: 0.5rem;
+    color: white;
+  }
+  .cardcaption h2 {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+  .cardcaption p {
+    margin: 0;
+    font-size: 0.4rem;
+  }
+  .cardcaption :nth-child(3) {
+    font-size: 0.7rem;
+  }
+  .pagenumber {
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  .pagenumber :first-child {
+    background: #b88e2f;
+  }
+  .pagenumber div {
+    padding: 0.3rem 1rem;
+    background: #b3b3b3;
+    color: white;
+    border-radius: 0.4rem;
+  }
+  .modal {
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    top: 15rem;
+  }
+  .modalmain {
+    padding: 2rem;
+    width: 15rem;
+    border-radius: 1rem;
+  }
+  .modalmain a {
+    padding-top: 2rem;
+  }
+  .modalmain form {
+    width: 13rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewhero {
+    margin: 0;
+  }
+
+  .reviews {
+    background-color: white;
+  }
+  .reviewmain {
+    padding: 6rem;
+    flex-direction: column;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 5px 8px 10px rgb(189, 189, 189);
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    background-color: rgb(242, 242, 242);
+    width: 16rem;
+    line-height: 1.8rem;
+  }
+  .reviewcardcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 25rem;
+    padding: 9rem 1rem;
+    overflow-y: auto;
+  }
+  .reviewhero h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 10rem 0;
+    text-align: center;
+  }
+  .reviewuser {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .reviewrating {
+    display: flex;
+    gap: 0.2rem;
+  }
+  .user {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+  }
+  .avatar img {
+    width: 3rem;
+  }
+  .user h2 {
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+  }
+  .user p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .star img {
+    width: 1rem;
+  }
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewform {
+    padding: 5rem 0 10rem 0;
+  }
+  .reviewform form .avatar img {
+    width: 3rem;
+  }
+  .reviewform form {
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #ececec;
+    align-items: center;
+  }
+  .reviewform form .button {
+    width: 10rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .reviewform input {
+    width: 10rem;
+  }
+  .textarea {
+    resize: none;
+    width: 10rem;
+    height: 8rem;
+  }
+  .pkgcontainer {
+    width: 100%;
+  }
+  .pkgcardcaption {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .Pkgcard {
+    padding: 1rem;
+  }
+  .pkgcardcaption p {
+    font-size: 2rem;
+
+    font-weight: bold;
+  }
+  .pkgcardcaption .items {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  .pkgbuy {
+    border-width: 0rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #b88e2f;
+  }
+  .Pkgcard {
+    background-image: url(../Images/BGpkgimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Pkghero {
+    padding: 3rem 0;
+  }
+  .itemcard {
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+  }
+  .itemcard img {
+    width: 5rem;
+  }
+  .itemcard {
+    font-size: 1rem;
+  }
+  .itemcontainer {
+    gap: 1rem;
+  }
+  .detail {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .maxwidth {
+    max-width: 35rem;
+  }
+  nav {
+    gap: 1.2rem;
+    padding: 1.5rem 0rem;
+  }
+  nav a {
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+
+  nav h3 {
+    font-size: small;
+  }
+  .slogan {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero {
+    padding: 8rem 0rem 5rem 0rem;
+  }
+  .hero p {
+    text-align: end;
+    margin: 1rem 0;
+    font-size: 0.8rem;
+  }
+  .herotext {
+    width: 60%;
+  }
+  .locationcap {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .locationmap iframe {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2rem;
+  }
+  .Range h1 {
+    font-size: 2rem;
+  }
+  .itemrange img {
+    width: 10rem;
+    border-radius: 1.4rem;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .itemrange h2 {
+    font-size: 2rem;
+  }
+  .links {
+    flex-grow: 1;
+    width: fit-content;
+    display: flex;
+    gap: 1.8rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footermain h1 {
+    font-size: 1rem;
+  }
+  .footermain {
+    margin: 0 auto;
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .button {
+    border-width: 0rem;
+    padding: 1rem 2rem;
+    background-color: #b88e2f;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    width: 12rem;
+    border-radius: 1rem;
+    justify-content: center;
+  }
+  form {
+    flex-direction: column;
+  }
+  #i1 {
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+  #i2 {
+    width: fit-content;
+    padding: 0 0.2rem;
+    font-size: 0.8rem;
+  }
+  .showcase {
+    padding: 5rem 0rem;
+  }
+  .showcase h1 {
+    font-size: 2rem;
+  }
+  .showcase p {
+    font-size: 1rem;
+  }
+  .showcaseparent {
+    display: flex;
+    align-items: center;
+  }
+  .showcaseleft {
+    display: flex;
+    width: 40%;
+    flex-grow: 1;
+  }
+  .slide-wrapper {
+    max-width: 40rem;
+  }
+  .slider {
+    height: 20rem;
+  }
+  .slider-nav {
+    bottom: 0.01rem;
+    gap: 0.5rem;
+  }
+  .slider-nav a div {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+    background-color: black;
+  }
+  .container {
+    padding: 5rem;
+    position: relative;
+    padding: 2rem;
+    max-width: 48rem;
+  }
+
+  .cpyright {
+    font-size: 1rem;
+  }
+  .campingbody {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .campingherobg {
+    width: 100%;
+    height: 350px;
+  }
+  .campingherobg h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    margin: auto auto;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+  }
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: fit-content;
+    justify-content: center;
+  }
+  .card {
+    width: 23%;
+    background-color: #b3b3b3;
+    border-radius: 0.7rem;
+    box-shadow: 3px 3px 4px rgb(216, 216, 216);
+  }
+  .card img {
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+  }
+  .cardcaption {
+    padding: 0.7rem;
+    color: white;
+  }
+  .cardcaption h2 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .cardcaption p {
+    margin: 0;
+    font-size: 0.6rem;
+  }
+  .cardcaption :nth-child(3) {
+    font-size: 1rem;
+  }
+  .pagenumber {
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  .pagenumber :first-child {
+    background: #b88e2f;
+  }
+  .pagenumber div {
+    padding: 0.6rem 1.5rem;
+    background: #b3b3b3;
+    color: white;
+    border-radius: 0.6rem;
+  }
+  .modal {
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    top: 15rem;
+  }
+  .modalmain {
+    padding: 2rem;
+    width: 25rem;
+    border-radius: 2rem;
+  }
+  .modalmain a {
+    padding-top: 2rem;
+  }
+  .modalmain form {
+    width: 20rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewhero {
+    margin: 0;
+  }
+  .reviewcardcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: 32rem;
+    padding: 5rem 1rem;
+    overflow-y: auto;
+  }
+  .reviews {
+    background-color: white;
+  }
+  .reviewmain {
+    padding: 6rem;
+    flex-direction: column;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 5px 8px 10px rgb(189, 189, 189);
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    background-color: rgb(242, 242, 242);
+    width: 30rem;
+    line-height: 1.8rem;
+  }
+  .reviewhero h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 10rem 0;
+    text-align: center;
+  }
+  .reviewuser {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .reviewrating {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .user {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+  }
+  .avatar img {
+    width: 3rem;
+  }
+  .user h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+  }
+  .user p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .star img {
+    width: 1.5rem;
+  }
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewform {
+    padding: 5rem 0 10rem 0;
+  }
+  .reviewform form .avatar img {
+    width: 6rem;
+  }
+  .reviewform form {
+    border-radius: 2rem;
+    padding: 7rem;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #ececec;
+    align-items: center;
+  }
+  .reviewform form .button {
+    width: 10rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .reviewform input {
+    width: 20rem;
+  }
+  .textarea {
+    resize: none;
+    width: 20rem;
+    height: 8rem;
+  }
+  .pkgcontainer {
+    width: 100%;
+  }
+  .pkgcardcaption {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .Pkgcard {
+    padding: 1rem;
+    background-color: white;
+  }
+  .pkgcardcaption p {
+    font-size: 2rem;
+
+    font-weight: bold;
+  }
+  .pkgcardcaption .items {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  .pkgbuy {
+    border-width: 0rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #b88e2f;
+  }
+  .Pkgcard {
+    background-image: url(../Images/BGpkgimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .center h1 {
+    font-size: 2rem;
+  }
+  .pkgheader h1 {
+    font-size: 2rem;
+  }
+  .itemcard {
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+  }
+  .itemcard img {
+    width: 10rem;
+  }
+  .itemcard {
+    font-size: 1.2rem;
+  }
+  .itemcontainer {
+    gap: 2rem;
+  }
+  .detail {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .maxwidth {
+    max-width: 58rem;
+  }
+  nav {
+    gap: 2rem;
+  }
+  nav a {
+    font-size: small;
+    font-weight: 500;
+  }
+  nav h1 {
+    font-size: medium;
+  }
+  .slogan {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero p {
+    text-align: end;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+  }
+  .herotext {
+    width: 60%;
+  }
+  .locationmap iframe {
+    width: 50rem;
+    height: 30rem;
+    border-radius: 2rem;
+  }
+  .locationcap {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .Range h1 {
+    font-size: 3rem;
+  }
+  .itemrange img {
+    width: 15rem;
+    border-radius: 1.4rem;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .links {
+    flex-grow: 1;
+    width: fit-content;
+    display: flex;
+    gap: 1.8rem;
+    font-weight: 500;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footermain h1 {
+    font-size: 1.3rem;
+  }
+  .button {
+    border-width: 0rem;
+    padding: 1.7rem 3.7rem;
+    background-color: #b88e2f;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    width: 16rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+  }
+  .form {
+    width: fit-content;
+  }
+  form {
+    flex-direction: row;
+  }
+  .showcase {
+    padding: 5rem 0rem;
+  }
+  .showcase h1 {
+    font-size: 2.5rem;
+  }
+  .showcase p {
+    font-size: 1.7rem;
+  }
+  .showcaseparent {
+    display: flex;
+    align-items: center;
+  }
+  .showcaseleft {
+    display: flex;
+    width: 40%;
+    flex-grow: 1;
+  }
+  .slide-wrapper {
+    max-width: 40rem;
+  }
+  .slider {
+    height: 30rem;
+  }
+  .slider-nav {
+    bottom: 0.01rem;
+    gap: 0.5rem;
+  }
+  .slider-nav a div {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+    background-color: black;
+  }
+  .container {
+    padding: 5rem;
+    position: relative;
+    padding: 2rem;
+    max-width: 48rem;
+  }
+  .slide-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+  .campingbody {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .campingherobg {
+    width: 100%;
+    height: 400px;
+  }
+  .campingherobg h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 3rem;
+    margin: auto auto;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+  }
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: fit-content;
+    justify-content: center;
+  }
+  .card {
+    width: 23%;
+    background-color: #b3b3b3;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 4px rgb(216, 216, 216);
+  }
+  .card img {
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .cardcaption {
+    padding: 1rem;
+    color: white;
+  }
+  .cardcaption h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .cardcaption p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .cardcaption :nth-child(3) {
+    font-size: 1.2rem;
+  }
+  .pagenumber {
+    gap: 2rem;
+    margin: 0 auto;
+  }
+  .pagenumber :first-child {
+    background: #b88e2f;
+  }
+  .pagenumber div {
+    padding: 1rem 2rem;
+    background: #b3b3b3;
+    color: white;
+    border-radius: 1rem;
+  }
+  .modal {
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    top: 15rem;
+  }
+  .modalmain {
+    padding: 2rem;
+    width: 30rem;
+    border-radius: 2rem;
+  }
+  .modalmain a {
+    padding-top: 2rem;
+  }
+  .modalmain form {
+    width: 20rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewhero {
+    margin: 0;
+  }
+  .reviews {
+    background-color: white;
+  }
+  .reviewmain {
+    padding: 10rem;
+    flex-direction: column;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewcardcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: 32rem;
+    padding: 5rem 5rem;
+    overflow-y: auto;
+  }
+  .reviewcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 5px 8px 10px rgb(189, 189, 189);
+    border-radius: 1rem;
+    padding: 3rem 5rem;
+    background-color: rgb(242, 242, 242);
+    width: 40rem;
+    line-height: 1.8rem;
+  }
+  .reviewhero h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 10rem 0;
+    text-align: center;
+  }
+  .reviewuser {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .reviewrating {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .user {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+  }
+  .avatar img {
+    width: 3rem;
+  }
+  .user h2 {
+    margin: 0;
+    padding: 0;
+  }
+  .user p {
+    margin: 0;
+  }
+  .star img {
+    width: 1.5rem;
+  }
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewform {
+    padding: 5rem 0 10rem 0;
+  }
+  .reviewform form .avatar img {
+    width: 6rem;
+  }
+  .reviewform form {
+    border-radius: 2rem;
+    padding: 7rem;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #ececec;
+    align-items: center;
+  }
+  .reviewform form .button {
+    width: 10rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .reviewform input {
+    width: 30rem;
+  }
+  .textarea {
+    resize: none;
+    width: 30rem;
+    height: 8rem;
+  }
+  .pkgcontainer {
+    width: 100%;
+  }
+  .pkgcardcaption {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .Pkgcard {
+    padding: 1rem;
+  }
+  .pkgcardcaption p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .pkgcardcaption .items {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  .pkgbuy {
+    border-width: 0rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #b88e2f;
+  }
+  .center h1 {
+    font-size: 4rem;
+  }
+  .pkgheader h1 {
+    font-size: 4rem;
+  }
+  .Pkghero {
+    padding: 15rem 0;
+  }
+  .pkgs {
+    padding: 0;
+  }
+  .itemcard {
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+  }
+  .itemcard img {
+    width: 10rem;
+  }
+  .itemcard {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .maxwidth {
+    max-width: 70rem;
+  }
+  nav {
+    gap: 4rem;
+  }
+  nav a {
+    font-size: medium;
+    font-weight: 500;
+  }
+  nav h1 {
+    font-size: larger;
+  }
+  .slogan {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    text-align: end;
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.2rem;
+  }
+  .locationmap iframe {
+    width: 60rem;
+    height: 30rem;
+    border-radius: 2rem;
+  }
+  .itemrange img {
+    width: 18rem;
+    border-radius: 1.4rem;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .links {
+    flex-grow: 1;
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footermain h1 {
+    font-size: 2rem;
+  }
+  .footer {
+    padding: 5rem 0rem;
+    gap: 1rem;
+  }
+  .button {
+    border-width: 0rem;
+    padding: 1.7rem 3.7rem;
+    background-color: #b88e2f;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    width: 18rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+  }
+  .showcase {
+    padding: 5rem 0rem;
+  }
+  .showcase h1 {
+    color: #b88e2f;
+    font-size: 3rem;
+  }
+  .showcase p {
+    font-size: 2rem;
+  }
+
+  .showcaseparent {
+    display: flex;
+    align-items: center;
+  }
+  .showcaseleft {
+    display: flex;
+    width: 40%;
+    flex-grow: 1;
+  }
+  .slide-wrapper {
+    max-width: 40rem;
+  }
+  .slider {
+    height: 40rem;
+  }
+  .slider-nav {
+    bottom: 0.01rem;
+    gap: 0.5rem;
+  }
+  .slider-nav a div {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+    background-color: black;
+  }
+  .campingbody {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .campingherobg {
+    width: 100%;
+    height: 400px;
+  }
+  .campingherobg h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 3rem;
+    margin: auto auto;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+  }
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: fit-content;
+    justify-content: center;
+  }
+  .card {
+    width: 23%;
+    background-color: #b3b3b3;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 4px rgb(216, 216, 216);
+  }
+  .card img {
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .cardcaption {
+    padding: 1rem;
+    color: white;
+  }
+  .cardcaption h2 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  .cardcaption p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .cardcaption :nth-child(3) {
+    font-size: 1.3rem;
+  }
+  .pagenumber {
+    gap: 2rem;
+    margin: 0 auto;
+  }
+  .pagenumber :first-child {
+    background: #b88e2f;
+  }
+  .pagenumber div {
+    padding: 1rem 2rem;
+    background: #b3b3b3;
+    color: white;
+    border-radius: 1rem;
+  }
+  .modal {
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    top: 15rem;
+  }
+  .modalmain {
+    padding: 2rem;
+    width: 30rem;
+    border-radius: 2rem;
+  }
+  .modalmain a {
+    padding-top: 2rem;
+  }
+  .modalmain form {
+    width: 20rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewhero {
+    margin: 0;
+  }
+  .reviews {
+    background-color: white;
+  }
+  .reviewmain {
+    padding: 10rem;
+    flex-direction: column;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 5px 8px 10px rgb(189, 189, 189);
+    border-radius: 1rem;
+    padding: 3rem 5rem;
+    background-color: rgb(242, 242, 242);
+    width: 40rem;
+    line-height: 1.8rem;
+  }
+  .reviewhero h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 10rem 0;
+    text-align: center;
+  }
+  .reviewuser {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .reviewrating {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .user {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+  }
+  .avatar img {
+    width: 3rem;
+  }
+  .user h2 {
+    margin: 0;
+    padding: 0;
+  }
+  .user p {
+    margin: 0;
+  }
+  .star img {
+    width: 1.5rem;
+  }
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewform {
+    padding: 5rem 0 10rem 0;
+  }
+  .reviewform form .avatar img {
+    width: 6rem;
+  }
+  .reviewform form {
+    border-radius: 2rem;
+    padding: 7rem;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #ececec;
+    align-items: center;
+  }
+  .reviewform form .button {
+    width: 10rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .reviewform input {
+    width: 30rem;
+  }
+  .textarea {
+    resize: none;
+    width: 30rem;
+    height: 8rem;
+  }
+  .Pkghero {
+    padding: 15rem 0;
+  }
+  .pkgcontainer {
+    width: 100%;
+  }
+  .pkgcardcaption {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .Pkgcard {
+    padding: 1rem;
+  }
+  .pkgcardcaption p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .pkgcardcaption .items {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  .pkgbuy {
+    border-width: 0rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #b88e2f;
+  }
+  .itemcard {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+  }
+  .itemcard img {
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .maxwidth {
+    max-width: 75rem;
+  }
+  nav {
+    gap: 5rem;
+  }
+  nav a {
+    font-size: medium;
+    font-weight: 500;
+  }
+  nav h1 {
+    font-size: larger;
+  }
+  .slogan {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  .hero p {
+    text-align: end;
+    font-size: 1.5rem;
+  }
+
+  .locationmap iframe {
+    width: 70rem;
+    height: 40rem;
+    border-radius: 2rem;
+  }
+  .itemrange img {
+    width: 20rem;
+    border-radius: 1.4rem;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .links {
+    flex-grow: 1;
+    width: fit-content;
+    display: flex;
+    gap: 2.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footermain h1 {
+    font-size: 2rem;
+  }
+  .footer {
+    padding: 5rem 0rem;
+    gap: 3rem;
+  }
+  .button {
+    border-width: 0rem;
+    padding: 2rem 4rem;
+    background-color: #b88e2f;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    width: 20rem;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  .showcase {
+    padding: 5rem 0rem;
+  }
+  .showcase h1 {
+    font-size: 4rem;
+  }
+  .showcase p {
+    font-size: 2rem;
+  }
+  .showcaseparent {
+    display: flex;
+    align-items: center;
+  }
+  .showcaseleft {
+    display: flex;
+    width: 40%;
+    flex-grow: 1;
+  }
+  .campingbody {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .campingherobg {
+    width: 100%;
+    height: 400px;
+  }
+  .furnitureherobg {
+    width: 100%;
+    height: 400px;
+  }
+  .campingherobg h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 3rem;
+    margin: auto auto;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+  }
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .card {
+    width: 23%;
+    background-color: #b3b3b3;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 4px rgb(216, 216, 216);
+  }
+  .card img {
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .cardcaption {
+    padding: 1rem;
+    color: white;
+  }
+  .cardcaption h2 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  .cardcaption p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .cardcaption :nth-child(3) {
+    font-size: 1.2rem;
+  }
+  .pagenumber {
+    gap: 2rem;
+    margin: 0 auto;
+  }
+  .pagenumber :first-child {
+    background: #b88e2f;
+  }
+  .pagenumber div {
+    padding: 1rem 2rem;
+    background: #b3b3b3;
+    color: white;
+    border-radius: 1rem;
+  }
+  .modal {
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    top: 15rem;
+  }
+  .modalmain {
+    padding: 2rem;
+    width: 30rem;
+    border-radius: 2rem;
+  }
+  .modalmain a {
+    padding-top: 2rem;
+  }
+  .modalmain form {
+    width: 20rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .reviewhero {
+    margin: 0;
+  }
+  .reviews {
+    background-color: white;
+  }
+  .reviewmain {
+    padding: 10rem;
+    flex-direction: column;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 5px 8px 10px rgb(189, 189, 189);
+    border-radius: 1rem;
+    padding: 3rem 5rem;
+    background-color: rgb(242, 242, 242);
+    width: 40rem;
+    line-height: 1.8rem;
+  }
+  .reviewhero h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 10rem 0;
+    text-align: center;
+  }
+  .reviewuser {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .reviewrating {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .user {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+  }
+  .avatar img {
+    width: 3rem;
+  }
+  .user h2 {
+    margin: 0;
+    padding: 0;
+  }
+  .user p {
+    margin: 0;
+  }
+  .star img {
+    width: 1.5rem;
+  }
+  .relative {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .reviewform {
+    padding: 5rem 0 10rem 0;
+  }
+  .reviewform form .avatar img {
+    width: 6rem;
+  }
+  .reviewform form {
+    border-radius: 2rem;
+    padding: 7rem;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #ececec;
+    align-items: center;
+  }
+  .reviewform form .button {
+    width: 10rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .reviewform input {
+    width: 30rem;
+  }
+  .textarea {
+    resize: none;
+    width: 31rem;
+    height: 10rem;
+  }
+  .pkgcontainer {
+    width: 100%;
+  }
+  .pkgcardcaption {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .Pkgcard {
+    padding: 1rem;
+  }
+  .pkgcardcaption p {
+    font-size: 2rem;
+
+    font-weight: bold;
+  }
+  .pkgcardcaption .items {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  .pkgbuy {
+    border-width: 0rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #b88e2f;
+  }
+}
